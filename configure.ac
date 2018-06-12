@@ -2,7 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])
+AC_INIT([HelloWorld], [0.01a], [REPORT-ADDRESS])
+AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([config.h])
 
@@ -17,6 +18,7 @@ AC_PROG_CXX
 
 # Checks for library functions.
 
+
 AC_CONFIG_SUBDIRS([lib/Expat/expat-2.1.0
                    lib/readline])
-AC_OUTPUT
+AC_OUTPUT(Makefile src/Makefile)

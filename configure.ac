@@ -9,6 +9,7 @@ AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
 AC_PROG_CXX
+AC_PROG_CC
 
 # Checks for libraries.
 
@@ -19,6 +20,5 @@ AC_PROG_CXX
 # Checks for library functions.
 
 
-AC_CONFIG_SUBDIRS([lib/Expat/expat-2.1.0
-                   lib/readline])
+AC_CONFIG_SUBDIRS(lib/sqlite-autoconf-3220000)
 AC_OUTPUT(Makefile src/Makefile)

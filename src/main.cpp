@@ -1,6 +1,7 @@
 #include<iostream>
-
-
+extern "C" { 
+  #include <sqlite3.h>
+}
 
 int main(int argc, char *argv[]){
 

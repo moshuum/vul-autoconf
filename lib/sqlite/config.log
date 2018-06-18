@@ -413,7 +413,7 @@ configure:12966: $? = 0
 configure:12966: result: yes
 configure:12966: checking for fullfsync
 configure:12966: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cctvLTn2.o: In function `main':
+/tmp/ccRZnH18.o: In function `main':
 /home/user/Desktop/dependency-check/bin/jinan/extras/cmake/vul-autoconf/lib/sqlite/conftest.c:59: undefined reference to `fullfsync'
 collect2: error: ld returned 1 exit status
 configure:12966: $? = 1
@@ -798,7 +798,7 @@ configure:13187: checking for readline/readline.h
 configure:13187: result: no
 configure:13337: checking for library containing pthread_create
 configure:13368: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccb4kseG.o: In function `main':
+/tmp/ccIIMieQ.o: In function `main':
 /home/user/Desktop/dependency-check/bin/jinan/extras/cmake/vul-autoconf/lib/sqlite/conftest.c:40: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 configure:13368: $? = 1
@@ -855,7 +855,7 @@ configure:13424: $? = 0
 configure:13441: result: none required
 configure:13464: checking for library containing dlopen
 configure:13495: gcc -o conftest -g -O2   conftest.c -lpthread  >&5
-/tmp/ccK5PNH1.o: In function `main':
+/tmp/ccpPprta.o: In function `main':
 /home/user/Desktop/dependency-check/bin/jinan/extras/cmake/vul-autoconf/lib/sqlite/conftest.c:40: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:13495: $? = 1

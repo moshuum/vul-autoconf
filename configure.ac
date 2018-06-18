@@ -20,5 +20,5 @@ AC_PROG_CC
 # Checks for library functions.
 
 
-AC_CONFIG_SUBDIRS(lib/sqlite-autoconf-3220000)
+AC_CONFIG_SUBDIRS(lib/sqlite)
 AC_OUTPUT(Makefile src/Makefile)

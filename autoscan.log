@@ -1,3 +1,0 @@
-autoscan: warning: missing AC_PROG_CC wanted by: 
-	confdefs.h
-	config.h.in

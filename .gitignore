@@ -22,4 +22,6 @@
 *.l[ao]
 *~
 
-
+stamp-h1
+compile
+autoscan.log

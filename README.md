@@ -1,8 +1,8 @@
-# Autoconf Example
+# Automake and Autoconf Example
 
-This project is an example of a project using GNU Autoconf to manage its build. This project uses a Makefile libraries.
+This project is an example of a project using GNU Autoconf an to manage its build. This project uses a Makefile libraries.
 
-`configure.ac` at the root directory that declare the library's directory to build and its dependency required. The library directory are:  
+`configure.ac` and `makefile.am` at the root directory that declare the library's directory to build and its dependency required. The library directory are:  
 -  lib  
 
 The dependencies are:  
@@ -28,15 +28,3 @@ The dependencies are:
 
 #### What's next?
 
-
-
-
-**building**  
-1. aclocal
-2. automake --add-missing
-3. autoconf or autoreconf
-
-**Instructions**  
-1. ./configure
-2. make  
-3. ./src/HelloWorld

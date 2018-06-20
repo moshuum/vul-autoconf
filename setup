@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+aclocal && \
+automake --add-missing && \
+autoreconf && \
+./configure && \
+make
+
+d -n 1 -s -r -p "Press any key to continue"
+echo -e ""
+

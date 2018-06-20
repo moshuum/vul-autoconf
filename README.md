@@ -11,7 +11,7 @@ The dependencies are:
 #### To build the projects:
 1. aclocal
 2. automake --add-missing
-3. autoconf or autoreconf
+3. autoreconf
 4. ./configure
 5. make
 

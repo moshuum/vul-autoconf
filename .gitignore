@@ -26,3 +26,8 @@ stamp-h1
 compile
 autoscan.log
 configure.scan
+lib/sqlite/sqlite3
+lib/sqlite/config.log
+lib/sqlite/autom4te.cache/
+src/HelloWorld
+

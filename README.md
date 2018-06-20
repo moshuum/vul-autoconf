@@ -9,13 +9,12 @@ The dependencies are:
 - sqlite  
  
 #### To build the projects:
-`
-1. aclocal
+`1. aclocal
 2. automake --add-missing
 3. autoconf or autoreconf
 4. ./configure
-5. make
-`
+5. make`
+
 
 #### To run the projects:
 `./src/HelloWorld`  

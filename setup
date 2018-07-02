@@ -9,7 +9,7 @@ mkdir -p build \
 
 cd build
 ../configure
-pwd
+
 make
 
 cd ..

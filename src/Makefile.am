@@ -3,6 +3,6 @@ CFLAGS = --Os --pedantic -Wall -std=c99 -O2
 
 # this lists the binaries to produce, the (non-PHONY, binary) targets in
 # the previous manual Makefile
-bin_PROGRAMS = HelloWorld
+bin_PROGRAMS = main
 
-HelloWorld_SOURCES=main.cpp
+main_SOURCES=main.cpp

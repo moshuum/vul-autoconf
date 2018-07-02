@@ -1,7 +1,22 @@
 #!/usr/bin/env bash
 
-aclocal && automake --add-missing && autoreconf && ./configure
+mkdir -p build \
+&& libtoolize \
+&& aclocal \
+&& automake --add-missing \
+&& autoreconf
+
+
+cd build
+../configure
+pwd
 make
+
+cd ..
+
+if [ ! -f /build/main ]; then
+    echo "File 'main' is successfully compiled."
+fi
 
 read -n 1 -s -r -p "Press any key to continue"
 echo -e ""

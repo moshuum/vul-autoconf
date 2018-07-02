@@ -6,17 +6,8 @@ mkdir -p build \
 && automake --add-missing \
 && autoreconf
 
-
-cd build
-../configure
-
+./configure
 make
-
-cd ..
-
-if [ ! -f /build/main ]; then
-    echo "File 'main' is successfully compiled."
-fi
 
 read -n 1 -s -r -p "Press any key to continue"
 echo -e ""
